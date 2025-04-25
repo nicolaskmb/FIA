@@ -1,0 +1,26 @@
+1 - Comando para instalar o ambiente virtual
+
+- pip install virtualenv
+
+
+- python -m venv aula_venv
+
+2 - Comando para ativar o ambiente virtual
+
+- aula_venv\Scripts\activate
+
+
+pip install --upgrade pip
+
+
+pip install -r requirements.txt -> Usar para o processo automatico
+
+Saiba Sobre ambiente virtual 
+
+- https://learn.microsoft.com/pt-br/visualstudio/python/managing-python-environments-in-visual-studio?view=vs-2022
+
+- https://docs.python.org/pt-br/3.8/library/venv.html
+
+
+
+
