@@ -37,7 +37,7 @@ def chat_with_groq(prompt, context):
 def main():
     st.title("Sistema Inteligente de Recomendações de Carros 2025")
     
-    # Adicionar uma imagem temática na sidebar
+    # Side Bar
     with st.sidebar:
         st.header("Upload de Recomendações")
         uploader = st.file_uploader("Carregue as recomendações de carros (PDF)", type="pdf", accept_multiple_files=True)
